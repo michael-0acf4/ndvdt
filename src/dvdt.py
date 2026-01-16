@@ -41,7 +41,7 @@ def dvdt(input_path, output_path):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Compute the derivative of a video"
+        description="Compute the full derivative of a video"
     )
     parser.add_argument("input", help="Input path")
     parser.add_argument("output", help="Output path")
